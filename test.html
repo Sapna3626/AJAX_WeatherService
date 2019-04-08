@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            function sum(start,stop,count)
+            {
+                var sum=0;
+                var i=start;
+                while(start>stop)
+                {
+                    sum+=start;
+                    start-=count;
+                }
+                return sum;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            document.write(sum(233,15,8));
+        </script>
+    </body>
+</html>
